@@ -30,10 +30,10 @@ function weirdProducts(jsonObj){
         let list = document.createElement('ul');
         //img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
         //article.appendChild(img);
-        article.appendChild(nameHead);
-        article.appendChild(descPara);
-        article.appendChild(pricePara);
-        article.appendChild(list);
+        art.appendChild(nameHead);
+        art.appendChild(descPara);
+        art.appendChild(pricePara);
+        art.appendChild(list);
         section.appendChild(article);
 
 
