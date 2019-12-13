@@ -24,11 +24,11 @@ function weirdProducts(jsonObj){
     for(var i = 0;i<weirdProducts.length;i++){
         let art = document.createElement('article');
         let nameHead = document.createElement('h2');
-        let img = document.createElement('img');
+        //let img = document.createElement('img');
         let descPara = document.createElement('p');
         let pricePara = document.createElement('p');
         let list = document.createElement('ul');
-        img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
+        //img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
         //article.appendChild(img);
         article.appendChild(nameHead);
         article.appendChild(descPara);
