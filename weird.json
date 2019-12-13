@@ -3,34 +3,34 @@
 "location": "Kenya",
 "since":"Yesterday",
 "weirdProducts":[   
-  {  "name": "catdog",
-     "description":"smelly",
-     "price":"$4",
-     "image":"Hudson.jpg"
+  {  "name": "Strange Vacuum",
+     "description":"Oddly shaped, extremely effective at cleaning foodstuffs.  Leaves mess worse than you started with.",
+     "price":"Priceless",
+     "image":"hudson.jpg"
   },
   {
-      "name":"dogcat",
-      "description":"yummy",
-      "price":"$40",
-      "image":"Hudson.jpg"
+      "name":"Handerpants",
+      "description":"To keep your hands warm while coding or protect yourself from hand-predators",
+      "price":"$10",
+      "image":"Handerpants.jpg"
   },
   {
-    "name":"matfrog",
-    "description":"yummy",
+    "name":"Poo Hat",
+    "description":"A safe alternative to the real thing when trying to impress at corporate functions()",
     "price":"$50",
-    "image":"Hudson.jpg"
+    "image":"poohat.jpg"
 },
 {
-    "name":"fatlog",
-    "description":"yummy",
-    "price":"$30",
-    "image":"Hudson.jpg"
+    "name":"Dog beak",
+    "description":"I wanted a duck, not a dog...",
+    "price":"$3",
+    "image":"dogbeak.jpg"
 },
 {
-    "name":"bathog",
+    "name":"Handitaur",
     "description":"yummy",
     "price":"$20",
-    "image":"Hudson.jpg"
+    "image":"Handitaur.jpg"
 }
 
 

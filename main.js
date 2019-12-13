@@ -24,20 +24,35 @@ function weirdProducts(jsonObj){
     for(var i = 0;i<weirdProducts.length;i++){
         let art = document.createElement('article');
         let nameHead = document.createElement('h2');
-        //let img = document.createElement('img');
+        let img = document.createElement('img');
         let descPara = document.createElement('p');
         let pricePara = document.createElement('p');
         let list = document.createElement('ul');
-        nameHead.textContent(weirdStuff[i].name);
-        descPara.textContent(weirdStuff[i].description);
-        pricePara.textContent(weirdStuff[i].price);
-        //img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
-        //article.appendChild(img);
+        nameHead.textContent = weirdProducts[i].name;
+        descPara.textContent= weirdProducts[i].description;
+        pricePara.textContent =weirdProducts[i].price;
+        img.setAttribute('src', '~/images/' + weirdProducts[i].image);
+       // img.setAttribute('src', 'https://100037633.github.io/project3_js/images/' + weirdProducts[i].image);
+        article.appendChild(img);
         art.appendChild(nameHead);
         art.appendChild(descPara);
         art.appendChild(pricePara);
         art.appendChild(list);
         section.appendChild(art);
+        /*images from:
+        hudson-
+        my goodest yellow lab
+        handitaur-
+        https://mcphee.com/products/handitaur
+        dogbeak-
+        http://www.funcage.com/blog/24-weird-products-that-actually-exist/
+        poo hat-
+        https://www.partycity.com/ca/poop-icon-hat-627510.html
+        handerpants-
+        https://www.handerpants.com/
+
+
+        */
 
 
 
