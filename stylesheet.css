@@ -5,3 +5,17 @@
     margin-bottom: 20px;
 
 }
+article{
+    height: 400px;
+    width : 300px;
+    background-color: burlywood;
+    
+
+}
+h1{
+    color : blue;
+    text-decoration-style: double;
+}
+body{
+    background-color: darkblue;
+}
