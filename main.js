@@ -29,7 +29,7 @@ function weirdProducts(jsonObj){
         let pricePara = document.createElement('p');
         let list = document.createElement('ul');
         img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
-        article.appendChild(img);
+        //article.appendChild(img);
         article.appendChild(nameHead);
         article.appendChild(descPara);
         article.appendChild(pricePara);
