@@ -31,9 +31,12 @@ function weirdProducts(jsonObj){
         nameHead.textContent = weirdProducts[i].name;
         descPara.textContent= weirdProducts[i].description;
         pricePara.textContent =weirdProducts[i].price;
-        img.setAttribute('src', '~/images/' + weirdProducts[i].image);
-       // img.setAttribute('src', 'https://100037633.github.io/project3_js/images/' + weirdProducts[i].image);
-        article.appendChild(img);
+        //img.setAttribute('src', 'images/' + weirdProducts[i].image);
+        img.setAttribute('height', '250');
+        img.setAttribute('width', '250');
+        
+        img.setAttribute('src', 'https://100037633.github.io/project3_js/images/' + weirdProducts[i].image);
+        art.appendChild(img);
         art.appendChild(nameHead);
         art.appendChild(descPara);
         art.appendChild(pricePara);
@@ -57,4 +60,14 @@ function weirdProducts(jsonObj){
 
 
     }
+
+}
+function initMap(){
+    //google maps integrated using developers.google.com as a major resource
+    var kenya = {lat: -1.28333,lng: 36.81667};
+    var map = new google.maps.Map(document.getElementById('map'), {zoom:3, center:kenya});
+    
+    var marker = new google.maps.Marker({position:kenya, map:map});
+    
+
 }
