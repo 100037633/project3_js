@@ -1,6 +1,6 @@
 let header = document.querySelector('header');
 let section = document.querySelector('section');
-let requestURL = "mygit";
+let requestURL = "https://100037633.github.io/project3_js/weird.json";
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -28,7 +28,7 @@ function weirdProducts(jsonObj){
         let descPara = document.createElement('p');
         let pricePara = document.createElement('p');
         let list = document.createElement('ul');
-        img.setAttribute('src', '');
+        img.setAttribute('src', 'https://100037633.github.io/project3_js/images');
         article.appendChild(img);
         article.appendChild(nameHead);
         article.appendChild(descPara);
