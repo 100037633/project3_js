@@ -5,27 +5,32 @@
 "weirdProducts":[   
   {  "name": "catdog",
      "description":"smelly",
-     "price":"$4"
+     "price":"$4",
+     "image":"Hudson.jpg"
   },
   {
       "name":"dogcat",
       "description":"yummy",
-      "price":"$40"
+      "price":"$40",
+      "image":"Hudson.jpg"
   },
   {
     "name":"matfrog",
     "description":"yummy",
-    "price":"$50"
+    "price":"$50",
+    "image":"Hudson.jpg"
 },
 {
     "name":"fatlog",
     "description":"yummy",
-    "price":"$30"
+    "price":"$30",
+    "image":"Hudson.jpg"
 },
 {
     "name":"bathog",
     "description":"yummy",
-    "price":"$20"
+    "price":"$20",
+    "image":"Hudson.jpg"
 }
 
 
