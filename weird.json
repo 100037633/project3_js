@@ -1,0 +1,33 @@
+{
+"company": "Weird Stuff",
+"location": "Kenya",
+"since":"Yesterday",
+"weirdProducts":[   
+  {  "name": "catdog",
+     "description":"smelly",
+     "price":"$4"
+  },
+  {
+      "name":"dogcat",
+      "description":"yummy",
+      "price":"$40"
+  },
+  {
+    "name":"matfrog",
+    "description":"yummy",
+    "price":"$50"
+},
+{
+    "name":"fatlog",
+    "description":"yummy",
+    "price":"$30"
+},
+{
+    "name":"bathog",
+    "description":"yummy",
+    "price":"$20"
+}
+
+
+]
+}
