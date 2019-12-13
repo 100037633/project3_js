@@ -34,7 +34,7 @@ function weirdProducts(jsonObj){
         art.appendChild(descPara);
         art.appendChild(pricePara);
         art.appendChild(list);
-        section.appendChild(article);
+        section.appendChild(art);
 
 
 
