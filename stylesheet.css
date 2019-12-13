@@ -9,11 +9,13 @@ article{
     height: 400px;
     width : 300px;
     background-color: burlywood;
+    margin-bottom: 50px;
+    margin-top:50px;
     
 
 }
 h1{
-    color : blue;
+    color : red;
     text-decoration-style: double;
 }
 body{
